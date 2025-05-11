@@ -24,6 +24,7 @@ class EmbedderConfig(BaseModel):
             "lmstudio",
             "langchain",
             "aws_bedrock",
+            "sentence-transformers",
         ]:
             return v
         else:
