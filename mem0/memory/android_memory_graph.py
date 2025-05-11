@@ -8,6 +8,7 @@ import numpy as np
 import hnswlib
 from typing import List, Dict
 from sentence_transformers import SentenceTransformer
+import logging
 
 from mem0.graphs.tools import (
     DELETE_MEMORY_STRUCT_TOOL_GRAPH,
